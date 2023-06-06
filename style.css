@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;1,100&family=Rubik&family=Rubik+Spray+Paint&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: red;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,200px);
+    gap:24px;
+    padding: 24px;
+}
+.sticky{
+    height: 200px;
+    padding: 16px;
+    border: none;
+    outline: none;
+    resize: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px;
+    font-size: 18px;
+}
+.btn-add{
+    outline: none;
+    border: none;
+    color: white;
+    background-color:#e74c3c;
+    cursor: pointer;
+    font-size: 30px;
+    opacity: .9;
+    height: 200px;
+}
+.btn-add:hover{
+    background-color: aqua;
+}
